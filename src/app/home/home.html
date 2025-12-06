@@ -1,0 +1,39 @@
+<section class="search-section">
+  <form>
+    <input
+      type="text"
+      placeholder="Search Laptops"
+      #filter
+      (input)="filterResults(filter.value)"
+      class="search-box"
+    />
+    <button class="primary" type="button" (click)="filterResults(filter.value)">Search</button>
+  </form>
+</section>
+
+<section class="results">
+  <article
+    class="gym-card"
+    *ngFor="let gym of filteredGyms"
+    [routerLink]="['/details', gym.id]"
+  >
+ <img
+  [src]="gym.photo"
+  (error)="gym.photo='assets/images/default.jpg'"
+  alt="{{ gym.name }}"
+  class="gym-image"
+/>
+
+
+    <div class="gym-info">
+      <h3>{{ gym.name }}</h3>
+      <p class="location">{{ gym.city }}</p>
+      <p class="location">{{ gym.province }}</p>
+      <p style="font-size: 17pt;"><strong>₱</strong> {{ gym.availableUnits }}</p> 
+    </div>
+  </article>
+
+  <p *ngIf="filteredGyms.length === 0" class="no-results">
+    No gyms found. Try another city or name.
+  </p>
+</section>

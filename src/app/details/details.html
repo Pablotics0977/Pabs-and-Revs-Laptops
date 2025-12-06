@@ -1,0 +1,78 @@
+<!-- ✅ Toast Notification -->
+<div *ngIf="showToast" class="toast">{{ toastMessage }}</div>
+
+<!-- ✅ Loading -->
+<section *ngIf="loading" class="loading-section">
+  <p class="loading-text">Loading Laptop details...</p>
+</section>
+
+<!-- ✅ Gym Details -->
+<section *ngIf="!loading && gymLocation; else notFound" class="details-container">
+  <div class="image-section">
+    <img [src]="gymLocation.photo2" [alt]="gymLocation.name" />
+  </div>
+
+  <div class="info-section">
+    <h2>{{ gymLocation.name }}</h2>
+    <!-- <p class="location">{{ gymLocation.city }}, {{ gymLocation.province }}</p> -->
+    <p class="location">{{ gymLocation.description }}</p>
+
+    <div class="features">
+      <p style="font-size: 17pt;"><strong>₱ </strong> <span style="color: green;">{{ gymLocation.availableUnits }}</span></p>
+      <p><strong>Brand:</strong> {{ gymLocation.brand}}</p>
+      <p><strong>Model:</strong> {{ gymLocation.model}}</p>
+      <p><strong>RAM:</strong> {{ gymLocation.ram}}</p>
+      <p><strong>Storage:</strong> {{ gymLocation.storage}}</p>
+      <p><strong>Processor:</strong> {{ gymLocation.processor}}</p>
+    </div>
+<br>  
+    <div align="center">
+      <span style="padding-right: 1rem;"><button class="join-btn" (click)="openForm()">Proceed to Checkout</button></span>
+      <button class="back-btn" [routerLink]="['/']">← Back to Home</button>
+    </div>
+  </div>
+</section>
+
+<!-- ✅ Not Found -->
+<ng-template #notFound>
+  <section class="error-section">
+    <p>⚠️ Laptop details not found.</p>
+    <button class="back-btn" [routerLink]="['/']">← Back to Home</button>
+  </section>
+</ng-template>
+
+<!-- 🛒 Simple Laptop Order Form -->
+<div *ngIf="showForm" class="modal-overlay" (click)="closeForm()">
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <h3>Complete Your Order</h3>
+
+    <form (ngSubmit)="submitForm()">
+
+      <label>Full Name</label>
+      <input type="text" [(ngModel)]="formData.fullName" name="fullName" required />
+
+      <label>Contact Number</label>
+      <input type="text" [(ngModel)]="formData.contact" name="contact" required />
+
+      <label>Delivery Address</label>
+      <textarea [(ngModel)]="formData.address" name="address"></textarea>
+
+      <label>Payment Method</label>
+      <select [(ngModel)]="formData.paymentMethod" name="paymentMethod" required>
+        <option value="">Select...</option>
+        <option value="GCash">GCash</option>
+        <option value="Maya">Maya</option>
+        <option value="COD">Cash on Delivery</option>
+        <option value="BankTransfer">Bank Transfer</option>
+      </select>
+
+      <div class="modal-buttons">
+        <button type="submit" class="submit-btn">Place Order</button>
+        <button type="button" class="cancel-btn" (click)="closeForm()">Cancel</button>
+      </div>
+
+    </form>
+
+  </div>
+</div>
+

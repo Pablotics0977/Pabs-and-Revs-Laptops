@@ -1,0 +1,84 @@
+/* ===== Global Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: #050505;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+/* Subtle tech-themed background gradient */
+body {
+  background: linear-gradient(145deg, #050505, #0d0d0d);
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  background: rgba(6, 2, 58, 0.9);
+  border-bottom: 1px solid #f09999;
+  backdrop-filter: blur(8px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 12px rgba(255, 49, 49, 0.08);
+}
+
+/* Brand Logo + Name */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.25s ease, opacity 0.2s ease;
+}
+
+.brand:hover {
+  opacity: 0.95;
+  transform: translateY(-2px);
+}
+
+.brand .logo {
+  height: 50px;
+  width: auto;
+  filter: drop-shadow(0 0 5px rgba(255, 49, 49, 0.4));
+}
+
+/* Brand Text */
+.brand h3 {
+  font-size: 1.70rem;
+  color: #30cafd;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-shadow: 0 0 8px rgba(255, 49, 49, 0.6);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  padding: 1.3rem 0;
+  background-color: rgba(6, 2, 58, 0.9);;
+  border-top: 1px solid #1a1a1a;
+  color: #999;
+  font-size: 0.95rem;
+  letter-spacing: 0.4px;
+  transition: color 0.3s ease;
+  box-shadow: 0 -3px 12px rgba(255, 49, 49, 0.07);
+}
+
+.footer:hover {
+  color: #fff;
+  text-shadow: 0 0 8px rgba(255, 49, 49, 0.6);
+}
