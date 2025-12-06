@@ -1,0 +1,264 @@
+{
+  "locations": [
+    {
+      "id": "1",
+      "name": "Acer Aspire 5",
+      "city": "Intel Core i5 11th Gen",
+      "province": " 512GB SSD",
+      "photo": "assets/images/lp1.png",
+      "photo2": "assets/images/l1_v2.jpg",
+      "availableUnits": "28,999.00",
+      "wifi": true,
+      "laundry": false,
+      "brand": "Acer",
+      "model": "Aspire 5",
+      "price": "28,999.00",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "processor": "Intel Core i5 11th Gen",
+      "description": "Sleek everyday laptop with solid performance and fast 512GB SSD storage."
+    },
+    {
+      "id": "2",
+      "name": "ASUS VivoBook 15",
+      "city": "AMD Ryzen 5 5500U",
+      "province": " 512GB SSD",
+      "photo": "assets/images/l2.jpg",
+      "photo2": "assets/images/l2_v2.jpg",
+      "availableUnits": "32,999.00",
+      "wifi": true,
+      "laundry": true,
+      "brand": "ASUS",
+      "model": "VivoBook 15",
+      "price": "32,999.00",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "processor": "AMD Ryzen 5 5500U",
+      "description": "Lightweight and powerful with Ryzen 5 and ample SSD storage for multitasking."
+
+    },
+    {
+      "id": "3",
+      "name": "Lenovo IdeaPad Slim 3",
+      "city": "Intel Core i3 12th Gen",
+      "province": " 256GB SSD",
+      "photo": "assets/images/lp3.jpg",
+      "photo2": "assets/images/l3_v2.jpg",
+      "availableUnits": "26,999.00",
+      "wifi": false,
+      "laundry": true,
+      "brand": "Lenovo",
+      "model": "IdeaPad Slim 3",
+      "price": "26,999.00",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "processor": "Intel Core i3 12th Gen",
+      "description": "Affordable and compact laptop ideal for study and basic work."
+
+    },
+    {
+      "id": "4",
+      "name": "HP Pavilion x360",
+      "city": "Intel Core i5 12th Gen",
+      "province": "512GB SSD",
+      "photo": "assets/images/lp4.jpg",
+      "photo2": "assets/images/l4_v2.avif",
+      "availableUnits": "41,999.00",
+      "wifi": true,
+      "laundry": false,
+      "brand": "HP",
+      "model": "Pavilion x360",
+      "price": "41,999.00",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "processor": "Intel Core i5 12th Gen",
+      "description": "Convertible laptop with 16GB RAM perfect for work and entertainment."
+    },
+    {
+      "id": "5",
+      "name": "Dell Inspiron 14",
+      "city": "Intel Core i5 11th Gen",
+      "province": "512GB SSD",
+      "photo": "assets/images/l5.jpg",
+      "photo2": "assets/images/l5_v2.webp",
+      "availableUnits": "35,999.00",
+      "wifi": true,
+      "laundry": true, 
+      "brand": "Dell",
+      "model": "Inspiron 14",
+      "price": "35,999.00",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "processor": "Intel Core i5 11th Gen",
+      "description": "Reliable mid-range laptop with strong performance and sleek design."
+
+    },
+    {
+      "id": "6",
+      "name": "Apple MacBook Air M1",
+      "city": "Apple M1",
+      "province": " 256GB SSD",
+      "photo": "assets/images/l6.jpg",
+      "photo2": "assets/images/l6_v2.avif",
+      "availableUnits": "57,999.00",
+      "wifi": false,
+      "laundry": false,
+      "brand": "Apple",
+      "model": "MacBook Air M1",
+      "price": "57,999.00",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "processor": "Apple M1",
+      "description": "Ultra-light, fast, and efficient laptop with Apple’s M1 chip."
+
+
+    },
+    {
+      "id": "7",
+      "name": "MSI GF63 Thin",
+      "city": "Intel Core i5 12th Gen",
+      "province": " 512GB SSD",
+      "photo": "assets/images/l7.png",
+      "photo2": "assets/images/l7_v2.avif",
+      "availableUnits": "44,999.00",
+      "wifi": true,
+      "laundry": false,
+      "brand": "MSI",
+      "model": "GF63 Thin",
+      "price": "44,999.00",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "processor": "Intel Core i5 12th Gen",
+      "description": "Gaming-ready laptop with 16GB RAM and SSD speed in a thin chassis."
+
+
+    },
+    {
+      "id": "8",
+      "name": "Acer Nitro 5",
+      "city": "Intel Core i5 12th Gen",
+      "province": " 512GB SSD",
+      "photo": "assets/images/lp8.jpg",
+      "photo2": "assets/images/l8_v2.jpg",
+      "availableUnits": "55,999.00",
+      "wifi": true,
+      "laundry": true,
+      "brand": "Acer",
+      "model": "Nitro 5",
+      "price": "55,999.00",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "processor": "Intel Core i5 12th Gen",
+      "description": "Powerful gaming laptop with 16GB RAM and high-speed SSD storage."
+
+
+    },
+    {
+      "id": "9",
+      "name": "ASUS ROG Strix G15",
+      "city": "AMD Ryzen 7 6800H",
+      "province": "1TB SSD",
+      "photo": "assets/images/l9.png",
+      "photo2": "assets/images/l9_v2.png",
+      "availableUnits": "79,999.00",
+      "wifi": true,
+      "laundry": false,
+      "brand": "ASUS",
+      "model": "ROG Strix G15",
+      "price": "79,999.00",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "processor": "AMD Ryzen 7 6800H",
+      "description": "High-performance gaming beast with Ryzen 7 and massive 1TB SSD."
+
+
+    },
+    {
+      "id": "10",
+      "name": "Lenovo Legion 5 Pro",
+      "city": "AMD Ryzen 7 5800H",
+      "province": " 1TB SSD",
+      "photo": "assets/images/l10.webp",
+      "photo2": "assets/images/l10_v2.jpg",
+      "availableUnits": "89,999.00",
+      "wifi": true,
+      "laundry": true,
+      "brand": "Lenovo",
+      "model": "Legion 5 Pro",
+      "price": "89,999.00",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "processor": "AMD Ryzen 7 5800H",
+      "description": "Ultimate gaming laptop with 32GB RAM and lightning-fast storage."
+
+
+    },
+    {
+      "id": "11",
+      "name": "HP Envy 13",
+      "city": "Intel Core i7 11th Gen",
+      "province": " 512GB SSD",
+      "photo": "assets/images/l11.png",
+      "photo2": "assets/images/l11_v2.jpeg",
+      "availableUnits": "48,999.00",
+      "wifi": false,
+      "laundry": true,
+      "brand": "HP",
+      "model": "Envy 13",
+      "price": "48,999.00",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "processor": "Intel Core i7 11th Gen",
+      "description": "Premium ultrabook with strong performance and compact portability — perfect for professionals on the go."
+
+
+    },
+    {
+      "id": "12",
+      "name": "ASUS ZenBook 14",
+      "city": "AMD Ryzen 7 5700U",
+      "province": " 1TB SSD",
+      "photo": "assets/images/l12.png",
+      "photo2": "assets/images/l12_v2.png",
+      "availableUnits": "53,999.00",
+      "wifi": true,
+      "laundry": true,
+      "brand": "ASUS",
+      "model": "ZenBook 14",
+      "price": "53,999.00",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "processor": "AMD Ryzen 7 5700U",
+      "description": "Sleek, high‑power ultrabook with massive SSD storage and premium build quality for work or creative tasks."
+
+
+    },
+    {
+      "id": "13",
+      "name": "Dell XPS 13",
+      "city": "Intel Core i7 12th Gen",
+      "province": "1TB SSD",
+      "photo": "assets/images/l13.jpg",
+      "photo2": "assets/images/l13_v2.jpg",
+      "availableUnits": "69,999.00",
+      "wifi": true,
+      "laundry": false,
+      "brand": "Dell",
+      "model": "XPS 13",
+      "price": "69,999.00",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "processor": "Intel Core i7 12th Gen",
+      "description": "Flagship‑class compact laptop offering top‑tier performance and elegant design — ideal for power users and professionals."
+
+    }
+  ],
+  "memberships": [
+    {
+      "id": "1",
+      "type": "Monthly",
+      "price": 1500,
+      "durationDays": 30
+    }
+  ]
+}
